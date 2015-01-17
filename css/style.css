@@ -1,0 +1,44 @@
+
+/* ------------------------------------------------------- 
+
+* Filename:     AngularJS Pagination
+* Website:      http://www.shanidkv.com
+* Description:  Shanidkv AngularJS blog
+* Author:       Shanid KV shanidkannur@gmail.com
+
+---------------------------------------------------------*/
+
+*{
+    font-family: Arial;
+    font-size:12px;
+}
+.pagination{ 
+    margin: 20px 0; 
+    text-align: center;
+    line-height: 100%;
+}
+.pagination button{
+	font-size: 24px;
+	border-radius: 50%;
+	border: 0;
+	width: 30px;
+	height: 30px;
+	font-weight: normal;
+	color: #FFF;
+	cursor: pointer;
+	display: inline-block;
+	background: #C7C7C7;
+	text-align: center;
+}
+.pagination button:focus{
+    outline:none;
+}
+.pagination span{
+    display: inline-block;
+    margin: 0 0 10px 0;
+    vertical-align: middle;
+}
+button:disabled {
+    background: #ddd;
+    cursor: default;
+}
